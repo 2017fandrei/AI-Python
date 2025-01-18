@@ -120,8 +120,8 @@ while i >= 1:
 print()
 
 ex5='''
-# 5. Odd numbers between 1 and 15
-# Write a program that displays all the odd numbers between 1 and 15. Use a for loop and an if condition.
+5. Odd numbers between 1 and 15
+Write a program that displays all the odd numbers between 1 and 15. Use a for loop and an if condition.
 '''
 print(ex5)
 for i in range(1,15+1):
@@ -155,3 +155,21 @@ elif userInput < 0:
 else:
     print(f"{userInput} is zero.")
 
+ex7='''
+7. Digits of a number
+Write a program that reads an integer from the user and displays each digit of the number on a new line.
+Use a while loop to extract the digits.
+
+'''
+print(ex7)
+nr = int(input("Enter an integer: "))
+
+if nr == 0:
+    print(nr)
+elif nr < 0:
+    nr *= -1
+
+while nr:
+    dig = nr%10
+    print(dig)
+    nr = nr // 10
