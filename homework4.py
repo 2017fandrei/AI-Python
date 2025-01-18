@@ -193,3 +193,15 @@ print(ex9)
 for i in range(1,11):
     print(f"{i:2}: {i**2:3}")
 
+ex10='''
+10. Average of entered numbers
+Write a program that reads 5 integers from the user and calculates their average.
+Use a for loop to read and add the numbers, then divide the sum by 5 to get the average.
+'''
+print(ex10)
+sum = 0
+for i in range(5):
+    nr = int(input("Enter an integer: "))
+    sum = sum + nr
+print(sum/5)
+
