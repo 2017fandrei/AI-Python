@@ -84,3 +84,28 @@ while i <= 20:
     print(i, end=" ")
     i += 2
 print()
+
+ex3='''
+3. Sum of the first 10 integers
+Write a program that calculates and displays the sum of the first 10 integers (from 1 to 10 inclusive) using a for loop.
+'''
+print(ex3)
+sum = 0
+for i in range(1,10):
+    sum += i
+sum += i + 1
+print(sum)
+
+# Here's another approach.
+print("Here's another approach.")
+sum = 0
+for i in range(1,11):
+    sum += i
+print(sum)
+
+# Here's the last approach.
+print("Here's the last approach.")
+sum=(1+10)*10/2
+print(sum)
+print()
+
