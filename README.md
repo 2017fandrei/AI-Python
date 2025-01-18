@@ -1,1 +1,1 @@
-# ** Assignment from Python course** #
+# ** Assignment from Python course ** #
