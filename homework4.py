@@ -107,5 +107,14 @@ print(sum)
 print("Here's the last approach.")
 sum=(1+10)*10/2
 print(sum)
-print()
 
+ex4='''
+4. Countdown
+Write a program that displays a countdown from 10 to 1 using a while loop.
+'''
+print(ex4)
+i=10
+while i >= 1:
+    print(i, end=" ")
+    i -= 1
+print()
