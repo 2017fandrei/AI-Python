@@ -173,3 +173,13 @@ while nr:
     dig = nr%10
     print(dig)
     nr = nr // 10
+
+ex8='''
+8. Numbers divisible by 3 between 1 and 30
+Write a program that displays all numbers between 1 and 30 that are divisible by 3. Use a for loop and the modulo operator (%).
+'''
+print(ex8)
+for i in range(1,31):
+    if i%3 == 0:
+        print(i, end=" ")
+print()
