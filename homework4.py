@@ -128,3 +128,30 @@ for i in range(1,15+1):
     if i%2 == 1:
         print(i, end=" ")
 print()
+
+ex6='''
+6. Check if a number is positive
+Write a program that reads an integer from the user and checks if it is positive, negative, or zero.
+Display an appropriate message.
+
+'''
+print(ex6)
+# check first if user input is an integer
+userInput = 0
+while True:
+  try:
+     userInput = int(input("Enter an integer: "))
+  except ValueError:
+     print("Not an integer!")
+     continue
+  else:
+     print("Yes an integer!")
+     break
+
+if userInput > 0:
+    print(f"{userInput} is a positive integer.")
+elif userInput < 0:
+    print(f"{userInput} is a negative integer.")
+else:
+    print(f"{userInput} is zero.")
+
