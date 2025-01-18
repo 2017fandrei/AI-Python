@@ -183,3 +183,13 @@ for i in range(1,31):
     if i%3 == 0:
         print(i, end=" ")
 print()
+
+ex9='''
+9. Display the squares of numbers from 1 to 10
+Write a program that displays the square of each number from 1 to 10 using a for loop.
+Display the results in the format "Number: Square".
+'''
+print(ex9)
+for i in range(1,11):
+    print(f"{i:2}: {i**2:3}")
+
