@@ -118,3 +118,13 @@ while i >= 1:
     print(i, end=" ")
     i -= 1
 print()
+
+ex5='''
+# 5. Odd numbers between 1 and 15
+# Write a program that displays all the odd numbers between 1 and 15. Use a for loop and an if condition.
+'''
+print(ex5)
+for i in range(1,15+1):
+    if i%2 == 1:
+        print(i, end=" ")
+print()
