@@ -1,4 +1,4 @@
-```
+'''
 # Extra exercise
 # 1. Read two variables, number1 and number2, of type float, from the user.
 # 2. Read a variable operation that can be "+", "-", "*", or "/". If "stop" is entered, the program stops.
@@ -49,6 +49,16 @@
 # 10. Average of entered numbers
 # Write a program that reads 5 integers from the user and calculates their average.
 # Use a for loop to read and add the numbers, then divide the sum by 5 to get the average.
-```
-
+'''
+ex1='''
+1. Numbers from 1 to 10
+Write a program that displays all the numbers from 1 to 10 using a for loop.
+'''
+print(ex1)
+for i in range(1,11):
+    print(i, end=" ")
+print()  # Adds a final newline
+"""
+The extra % sign you see in your zsh shell output after using print(i, end=" ") occurs because Python does not automatically print a newline when using end=" ", and the % symbol is part of the zsh shell prompt indicating that the cursor is still on the same line.
+"""
 
