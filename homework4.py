@@ -50,6 +50,7 @@
 # Write a program that reads 5 integers from the user and calculates their average.
 # Use a for loop to read and add the numbers, then divide the sum by 5 to get the average.
 '''
+
 ex1='''
 1. Numbers from 1 to 10
 Write a program that displays all the numbers from 1 to 10 using a for loop.
@@ -62,3 +63,24 @@ print()  # Adds a final newline
 The extra % sign you see in your zsh shell output after using print(i, end=" ") occurs because Python does not automatically print a newline when using end=" ", and the % symbol is part of the zsh shell prompt indicating that the cursor is still on the same line.
 """
 
+ex2='''
+2. Even numbers between 1 and 20
+Write a program that displays all the even numbers between 1 and 20 using a while loop.
+'''
+print(ex2)
+i = 1
+while i <= 20:
+    if i%2 == 0:
+        print(i, end=" ")
+    i += 1
+print()
+
+# Here's another approach.
+print("Here's another approach.")
+i=1
+if i%2 == 1:
+    i += 1
+while i <= 20:
+    print(i, end=" ")
+    i += 2
+print()
